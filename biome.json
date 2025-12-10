@@ -1,0 +1,87 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"files": {
+		"ignoreUnknown": false
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab",
+		"indentWidth": 2,
+		"lineWidth": 100
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"noAutofocus": "off",
+				"useButtonType": "off"
+			},
+			"complexity": {
+				"noForEach": "off"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "off",
+				"noUnusedVariables": "warn",
+				"noUnusedImports": "warn"
+			},
+			"style": {
+				"noNegationElse": "warn",
+				"useFragmentSyntax": "off",
+				"useImportType": "off"
+			},
+			"suspicious": {
+				"noArrayIndexKey": "off",
+				"noEmptyBlockStatements": "error",
+				"useAwait": "error",
+				"noUnknownAtRules": "off"
+			}
+		}
+	},
+	"css": {
+		"formatter": {
+			"enabled": true,
+			"indentStyle": "tab",
+			"indentWidth": 2,
+			"lineWidth": 100,
+			"quoteStyle": "double"
+		},
+		"parser": {
+			"tailwindDirectives": true
+		},
+		"linter": {
+			"enabled": true
+		}
+	},
+	"javascript": {
+		"jsxRuntime": "reactClassic",
+		"formatter": {
+			"bracketSpacing": true,
+			"quoteStyle": "single",
+			"arrowParentheses": "always",
+			"indentStyle": "tab",
+			"indentWidth": 2,
+			"semicolons": "always",
+			"enabled": true,
+			"lineWidth": 100,
+			"jsxQuoteStyle": "single"
+		},
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		}
+	},
+	"assist": {
+		"enabled": true,
+		"actions": {
+			"source": {
+				"organizeImports": "on",
+				"useSortedAttributes": "on"
+			}
+		}
+	}
+}
