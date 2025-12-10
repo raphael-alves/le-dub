@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://le-dub.fr/sitemap.xml

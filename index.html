@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Arrêtez de dire 'La Dub'. Ici c'est LE dub. Monte le volume !" />
+    <meta name="keywords" content="Dub, Reggae, Sound System, Dub Siren, Web Audio API, Roots, Interactive, React, Bass Culture" />
+    <meta name="author" content="Raphaël Alves" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://le-dub.fr/" />
+    <meta property="og:title" content="NON, C'EST LE DUB. 🦁" />
+    <meta property="og:description" content="Viens faire sonner la sirène et rétablir la vérité. Le Dub, c'est sacré." />
+    <meta property="og:image" content="https://le-dub.fr/social-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NON, C'EST LE DUB. 🦁🔊" />
+    <meta name="twitter:description" content="Viens faire sonner la sirène et rétablir la vérité." />
+    <meta name="twitter:image" content="https://le-dub.fr/social-preview.png" />
+
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="LE DUB" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Rubik+Mono+One&display=swap" rel="stylesheet" />
+    <link rel="canonical" href="https://le-dub.fr/" />
+    
+    <title>ON DIT LE DUB 🦁</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ON DIT LE DUB",
+        "url": "https://le-dub.fr",
+        "description": "Le site militant pour rétablir la vérité : on dit LE Dub et pas La Dub. Avec un Sound System interactif.",
+        "inLanguage": "fr",
+        "author": {
+          "@type": "Person",
+          "name": "Raphaël ALVES",
+          "url": "https://github.com/raphael-alves"
+        },
+        "about": {
+          "@type": "MusicGenre",
+          "name": "Dub",
+          "description": "Genre musical issu du reggae, caractérisé par des remix instrumentaux et des effets sonores.",
+          "sameAs": "https://fr.wikipedia.org/wiki/Dub"
+        },
+        "keywords": "Dub, Reggae, Sound System, Musique, Interactive",
+        "image": "https://le-dub.fr/social-preview.png"
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div style="color:white; text-align:center; padding:50px; font-family:monospace;">
+        Active le JavaScript pour faire sonner la dub siren, sinon c'est le silence radio.
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
